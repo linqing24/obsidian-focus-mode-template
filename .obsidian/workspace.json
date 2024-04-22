@@ -128,14 +128,23 @@
                 "file": "README.md"
               }
             }
+          },
+          {
+            "id": "97ffd509c28e89a1",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "README.md"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,7 +158,7 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "7b8027a56b58f5c8",
+  "active": "97ffd509c28e89a1",
   "lastOpenFiles": [
     "assets/README/image-20240422195958096.png",
     "assets/README/image-20240422195952141.png",
