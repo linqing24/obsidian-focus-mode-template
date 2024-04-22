@@ -1,0 +1,21 @@
+{
+  "accentColor": "",
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "better-command-palette#plugin",
+    "dataview#plugin",
+    "dynamic-highlights#plugin",
+    "global",
+    "hover",
+    "makemd#plugin",
+    "minimal#theme",
+    "better-command-palette.plugin",
+    "dataview.plugin",
+    "dynamic-highlights.plugin",
+    "minimal.theme"
+  ],
+  "monospaceFontFamily": "Fira Code,Courier",
+  "textFontFamily": "LXGW WenKai GB Screen R,PingFang SC",
+  "translucency": true,
+  "baseFontSize": 17
+}

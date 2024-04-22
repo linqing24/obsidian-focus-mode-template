@@ -1,0 +1,10 @@
+.block-language-dataview table tr {
+    border-bottom: 1px dashed #e5e7eb;
+}
+
+.block-language-dataview table tbody tr:nth-child(2n+1) {
+    background-color: #f9fafb;
+}
+.block-language-dataview table tbody tr .el-p {
+    color: #374151;
+}

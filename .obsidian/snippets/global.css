@@ -1,0 +1,12 @@
+body {
+    /* 去除 checkbox 中划线 */
+    --checklist-done-decoration: none;
+    /* 支持复制 */
+    user-select: auto;
+    -webkit-user-select: auto;
+}
+
+/* 隐藏文档属性 */
+.metadata-properties-heading {
+    display: none;
+}

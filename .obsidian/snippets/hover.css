@@ -1,0 +1,50 @@
+/* 隐藏左右边栏切换按钮，鼠标悬停时显示 */
+
+.sidebar-toggle-button.mod-left,
+.sidebar-toggle-button.mod-right {
+    opacity: 0;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.sidebar-toggle-button:hover {
+    opacity: 100%;
+}
+/* 隐藏 tab 栏，鼠标悬停时显示 */
+
+.workspace-tab-header-container-inner {
+    opacity: 0;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.workspace-tab-header-container-inner:hover {
+    opacity: 100%;
+}
+
+
+/* 隐藏添加文档属性，鼠标悬停时展示 */
+/* .metadata-add-button.text-icon-button {
+    opacity: 0;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.metadata-add-button.text-icon-button:hover {
+    opacity: 100%;
+} */
+
+/* 文档属性下边距调整 */
+.metadata-container {
+    /* margin-bottom: 0; */
+}
+/*
+.metadata-container {
+    opacity: 0;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.metadata-container:hover {
+    opacity: 100%;
+} */

@@ -1,0 +1,5 @@
+/* dynamic-highlights 设置页问题修复 */
+.dynamic-highlights-settings .highlighter-settings-regex input[type="checkbox"] {
+    width: 30px !important;
+    height: 20px !important;
+}

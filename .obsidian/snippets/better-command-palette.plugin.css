@@ -1,0 +1,4 @@
+/* 隐藏 better-command-palette 标题 */
+.better-command-palette-title {
+    display: none;
+}

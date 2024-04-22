@@ -1,0 +1,8 @@
+{
+  "attachmentFolderPath": "./assets/README",
+  "newLinkFormat": "relative",
+  "newFileLocation": "current",
+  "useMarkdownLinks": true,
+  "promptDelete": false,
+  "propertiesInDocument": "hidden"
+}

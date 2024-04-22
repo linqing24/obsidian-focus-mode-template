@@ -1,0 +1,103 @@
+/* 文件列表样式调整 */
+.nav-files-container {
+    padding: 12px 24px;
+}
+
+.nav-files-container .nav-folder.mod-root .nav-folder > .nav-folder-children {
+    border-left: none;
+}
+
+
+.workspace-tab-header-inner-icon:has(.lucide-list) + .workspace-tab-header-inner-title {
+    visibility: hidden;
+    position: relative;
+}
+
+.workspace-tab-header-inner-icon:has(.lucide-list) + .workspace-tab-header-inner-title::after {
+    content: '大纲';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: visible;
+}
+
+/* 修改 checkbox 样式，默认为圆形，修改为圆角方形 */
+body {
+    --checkbox-radius: 2px;
+}
+
+/* cards 样式优化 */
+.custom-cards table.dataview tbody>tr>td:not(:first-child) span {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.custom-cards table.dataview tbody>tr>td {
+    font-size: 14px;
+    line-height: 1.5;
+    display: inline-flex;
+    align-items: center;
+    max-width: unset !important;
+}
+
+.custom-cards table.dataview tbody>tr>td img {
+    width: 100px !important;
+    height: 131px;
+    object-fit: cover;
+}
+
+
+
+.custom-cards .table-view-thead {
+    display: none;
+}
+
+
+.custom-cards table.dataview tbody>tr {
+    position: relative;
+    margin: 27px 0;
+    border-bottom: none;
+    background-color: #f9fafb;
+    display: grid;
+    grid-template-columns: 112px 1fr;
+    grid-template-rows: 36px 36px 30px 30px;
+    grid-template-areas: 'pic title'
+                        'pic info'
+                        'pic score'
+                        'pic desc';
+}
+
+.custom-cards table.dataview tbody>tr::after {
+    content: '';
+    position: absolute;
+    bottom: -13px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #e5e7eb;
+}
+
+.custom-cards table.dataview tbody>tr>td:nth-child(1) {
+    display: flex;
+    align-items: center;
+    grid-area: pic;
+}
+
+.custom-cards table.dataview tbody>tr>td:nth-child(2) {
+    grid-area: title;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.custom-cards table.dataview tbody>tr>td:nth-child(3) {
+    grid-area: info;
+}
+
+.custom-cards table.dataview tbody>tr>td:nth-child(4) {
+    grid-area: score;
+}
+.custom-cards table.dataview tbody>tr>td:nth-child(5) {
+    grid-area: desc;
+}
+
+
