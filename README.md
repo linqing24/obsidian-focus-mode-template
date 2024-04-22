@@ -1,7 +1,14 @@
+---
+created: 2024-04-22
+updated: 2024-04-22
+---
 #  🧘 obsidian 专注模式模板库
 
 > 精简 ui 元素，专注创作 ✏️
 
+![](assets/README/image-20240422195913285.png)
+![](assets/README/image-20240422195952141.png)
+![](assets/README/image-20240422195958096.png)
 ![](assets/README/image-20240422190825866.png)
 
 ## 发布日志
