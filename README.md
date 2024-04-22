@@ -1,7 +1,6 @@
-
 #  🧘 obsidian 专注模式模板库
 
-![awesome obsidian](https://img.shields.io/badge/awesome%20obsidian-7C3AED) ![last commit](https://shields.io/github/last-commit/linqing24/obsidian-focus-mode-template)
+![awesome obsidian](https://img.shields.io/badge/awesome%20obsidian-7C3AED) ![last commit](https://shields.io/github/last-commit/linqing24/obsidian-focus-mode-template) ![platform](https://img.shields.io/badge/platform-macos-lightgrey)
 
 > 精简 ui 元素，专注创作 ✏️
 
